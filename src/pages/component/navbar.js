@@ -10,7 +10,6 @@ export default function Menu() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
-            
           </Nav>
         </Navbar.Collapse>
       </Container>
