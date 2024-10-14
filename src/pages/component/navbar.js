@@ -1,8 +1,8 @@
 import {Container,Nav, Navbar} from 'react-bootstrap';
-
+import style from "@/styles/Navbar.module.css"
 export default function Menu() {
   return (
-    <Navbar expand="sm" className="" bg="dark" data-bs-theme="dark">
+    <Navbar expand="sm" className={'$nav.gradiente'} bg="dark" data-bs-theme="dark">
       <Container>
         <Navbar.Brand href="/">6B</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
